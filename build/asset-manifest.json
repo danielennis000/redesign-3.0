@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/redesign-3.0/static/css/main.45cfeab2.css",
+    "main.js": "/redesign-3.0/static/js/main.35ed43b7.js",
+    "index.html": "/redesign-3.0/index.html",
+    "main.45cfeab2.css.map": "/redesign-3.0/static/css/main.45cfeab2.css.map",
+    "main.35ed43b7.js.map": "/redesign-3.0/static/js/main.35ed43b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45cfeab2.css",
+    "static/js/main.35ed43b7.js"
+  ]
+}
