@@ -109,7 +109,32 @@ Build the optimized production bundle and optionally serve it locally:
 ```bash
 cd /Users/danielennis/ai-apps/rebrand-create-ai/example/figma-mcp-test
 npm run build
-npx serve -s ../../build
+npx serve -s build
+```
+
+## GitHub Pages Deployment
+
+This project is automatically deployed to GitHub Pages via GitHub Actions:
+
+- **Live Site**: [https://danielennis000.github.io/redesign-3.0](https://danielennis000.github.io/redesign-3.0)
+- **Automatic Deployment**: Every push to the `main` branch triggers a new deployment
+- **Build Process**: Uses GitHub Actions to build and deploy the React app
+
+### Deployment Workflow
+
+The `.github/workflows/deploy.yml` file handles:
+1. **Build**: Compiles the React app with `npm run build`
+2. **Deploy**: Automatically pushes the build to the `gh-pages` branch
+3. **GitHub Pages**: Serves the app from the `gh-pages` branch
+
+### Manual Deployment
+
+If you need to deploy manually:
+```bash
+npm run build
+git add build/ -f
+git commit -m "Deploy to GitHub Pages"
+git subtree push --prefix build origin gh-pages
 ```
 
 Notes:
