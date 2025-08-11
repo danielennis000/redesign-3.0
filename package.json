@@ -2,6 +2,7 @@
   "name": "figma-mcp-dashboard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://danielennis000.github.io/redesign-3.0",
   "dependencies": {
     "@types/node": "^16.18.0",
     "@types/react": "^18.2.0",
@@ -15,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "BUILD_PATH=../../build react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
